@@ -15,7 +15,7 @@ or via tctl we have to start the Temporal Server with Elasticsearch enabled:
 ```shell script
 git clone https://github.com/temporalio/docker-compose.git
 cd  docker-compose
-docker-compose -f docker-compose-cas-es.yml up
+docker-compose -f docker-compose-cass-es.yml up
 ```
 
 In case you don't want to run the queries agaist workflow changes, you can start Temporal Server on Docker
@@ -24,7 +24,7 @@ without Elasticsearch enabled:
 ```shell script
 git clone https://github.com/temporalio/docker-compose.git
 cd  docker-compose
-docker-compose -f docker-compose-cas-es.yml up
+docker-compose -f docker-compose-cass.yml up
 ```
 
 #### 2. Run the demo
